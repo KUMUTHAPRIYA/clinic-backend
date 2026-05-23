@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +16,7 @@ import com.example.demo.service.UserService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://clinic-frontend-nine-jet.vercel.app")
+
 public class UserController {
 
     @Autowired
