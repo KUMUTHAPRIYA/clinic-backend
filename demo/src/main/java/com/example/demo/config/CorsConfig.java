@@ -18,7 +18,7 @@ public class CorsConfig {
         CorsConfiguration config =
                 new CorsConfiguration();
 
-        config.addAllowedOrigin("http://localhost:5173");
+        config.addAllowedOrigin("clinic-frontend-nine-jet.vercel.app");
 
         config.addAllowedHeader("*");
 

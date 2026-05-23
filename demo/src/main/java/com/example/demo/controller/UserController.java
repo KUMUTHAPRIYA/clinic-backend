@@ -16,7 +16,7 @@ import com.example.demo.service.UserService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "clinic-frontend-nine-jet.vercel.app")
 public class UserController {
 
     @Autowired

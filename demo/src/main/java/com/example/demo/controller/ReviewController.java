@@ -16,7 +16,7 @@ import com.example.demo.service.ReviewService;
 
 @RestController
 @RequestMapping("/reviews")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "clinic-frontend-nine-jet.vercel.app")
 public class ReviewController {
      @Autowired
     private ReviewService service;
