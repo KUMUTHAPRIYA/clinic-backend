@@ -15,7 +15,7 @@ import com.example.demo.service.PatientService;
 
 @RestController
 @RequestMapping("patients")
-@CrossOrigin(origins = "clinic-frontend-nine-jet.vercel.app")
+@CrossOrigin(origins = "https://clinic-frontend-nine-jet.vercel.app")
 public class PatientController {
     @Autowired
     private PatientService patientService;
